@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What They Don't Want You To Know — A Sourced Outline</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+  :root {
+    --black: #0a0a0a;
+    --white: #f0ece0;
+    --red: #c0392b;
+    --grey: #2a2a2a;
+    --mid: #444;
+    --accent: #e8d5a3;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    padding: 2rem 1rem;
+  }
+
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  header {
+    border-bottom: 3px solid var(--red);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  header h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  header h1 span {
+    color: var(--red);
+  }
+
+  .subtitle {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--mid);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .intro {
+    background: var(--grey);
+    border-left: 4px solid var(--red);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 0.95rem;
+    color: var(--accent);
+  }
+
+  .section {
+    margin-bottom: 3.5rem;
+    border-bottom: 1px solid #222;
+    padding-bottom: 3rem;
+  }
+
+  .section:last-child {
+    border-bottom: none;
+  }
+
+  .section-number {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--red);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+  }
+
+  .section h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: clamp(1.2rem, 3vw, 1.7rem);
+    color: var(--white);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  .claim {
+    background: #111;
+    border-left: 3px solid var(--accent);
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 1.25rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .explanation {
+    font-size: 0.95rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .sources-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--red);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+  }
+
+  .sources {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .sources li {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+  }
+
+  .sources li::before {
+    content: "→ ";
+    color: var(--red);
+  }
+
+  .sources a {
+    color: #7eb8d4;
+    text-decoration: none;
+    word-break: break-all;
+  }
+
+  .sources a:hover {
+    color: var(--white);
+    text-decoration: underline;
+  }
+
+  .quote-block {
+    border: 1px solid #333;
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0;
+    font-family: 'Special Elite', cursive;
+    font-size: 1rem;
+    color: var(--accent);
+    position: relative;
+  }
+
+  .quote-block::before {
+    content: '"';
+    font-size: 3rem;
+    color: var(--red);
+    position: absolute;
+    top: -1rem;
+    left: 0.75rem;
+    line-height: 1;
+  }
+
+  .quote-attribution {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--mid);
+    margin-top: 0.5rem;
+    text-align: right;
+  }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 3px solid var(--red);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--mid);
+    text-align: center;
+    line-height: 2;
+  }
+
+  footer span {
+    color: var(--red);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>What They Don't Want <span>You To Know</span></h1>
+    <p class="subtitle">A sourced outline — compiled May 2026 — every claim verified</p>
+  </header>
+
+  <div class="intro">
+    This document contains sourced, verified claims about the US-Iran war, government accountability, and the state of American democracy. Every statement is backed by primary sources, nonpartisan legal organizations, international bodies, and mainstream journalism. These are not opinions. These are documented facts.
+  </div>
+
+  <!-- SECTION 1 -->
+  <div class="section">
+    <p class="section-number">01</p>
+    <h2>The War Was Never Declared — And Started During Active Diplomacy</h2>
+    <div class="claim">The US launched strikes on Iran during active nuclear negotiations, without a Congressional declaration of war.</div>
+    <p class="explanation">
+      Under Article I, Section 8 of the US Constitution, only Congress has the authority to declare war. Congress never voted. The strikes began on February 28, 2026 — while the US and Iran were actively negotiating over Iran's nuclear program. Just ten days before the strikes, the IAEA director-general said he saw no indication Iran was currently working to develop a nuclear weapon, and noted willingness on both sides to reach an agreement. The stated nuclear justification was further undermined when a US official on a press call the same day admitted there was no imminent nuclear weapons threat — only a conventional missile concern. The last formal declaration of war by the United States was World War II.
+    </p>
+    <div class="quote-block">
+      The threat from Iran is ultimately their ambition to acquire nuclear weapons, but in the short term, it is the conventional weapon, the conventional missile capability.
+      <p class="quote-attribution">— Unnamed US official, February 28 press call</p>
+    </div>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://britannica.com/question/Did-the-U-S-declare-war-on-Iran" target="_blank">Britannica — Did the US Declare War on Iran?</a></li>
+      <li><a href="https://cnn.com/2026/03/04/politics/war-declaration-iran-congress-trump" target="_blank">CNN — War Declaration, Iran, Congress</a></li>
+      <li><a href="https://hks.harvard.edu/faculty-research/policy-topics/are-we-officially-war-iran" target="_blank">Harvard Kennedy School — Are We Officially at War with Iran?</a></li>
+      <li><a href="https://pbs.org/newshour/politics/trump-says-deadline-for-congress-to-approve-iran-war-doesnt-apply" target="_blank">PBS — Trump Says War Powers Deadline Doesn't Apply</a></li>
+      <li><a href="https://armscontrol.org/issue-briefs/2026-03/did-irans-nuclear-and-missile-programs-pose-imminent-threat-no" target="_blank">Arms Control Association — Did Iran Pose an Imminent Nuclear Threat? No.</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="section">
+    <p class="section-number">02</p>
+    <h2>The Minab School Strike — 168 Killed, Over 100 Children</h2>
+    <div class="claim">A US airstrike hit an elementary school in Minab, Iran, killing 168 people — more than 100 of them children under 12. AI targeting systems were involved. Accountability has been minimal.</div>
+    <p class="explanation">
+      A Tomahawk cruise missile struck Shajareh Tayyebeh elementary school in Minab, southern Iran, on the first day of the war. School staff had begun contacting parents at around 10am to pick up their children — the strike hit at 10:45am. Amnesty International's analysis found the school had been clearly separated from an adjacent IRGC military compound by a wall, and that the strike resulted from reliance on outdated data. The US military used the Maven Smart System — an AI targeting software capable of producing 1,000 target packages per hour — to strike 6,000 targets in the first two weeks. Reports indicate Claude, Anthropic's AI, was also used in planning. The Pentagon has refused to confirm specifics. Forty-three US senators pressed the Pentagon for accountability. The story received minimal coverage on conservative media platforms.
+    </p>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://en.wikipedia.org/wiki/2026_Minab_school_airstrike" target="_blank">Wikipedia — 2026 Minab School Airstrike</a></li>
+      <li><a href="https://amnesty.org/en/latest/news/2026/03/usa-iran-those-responsible-for-deadly-and-unlawful-us-strike-on-school" target="_blank">Amnesty International — Unlawful US Strike on School</a></li>
+      <li><a href="https://washingtonpost.com/national-security/2026/03/11/us-strike-iran-elementary-school-ai-target-list" target="_blank">Washington Post — US Strike, Iran Elementary School, AI Target List</a></li>
+      <li><a href="https://defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push" target="_blank">Defense News — School Strike Casts Shadow Over Pentagon's AI Targeting</a></li>
+      <li><a href="https://foreignpolicy.com/2026/04/14/ai-targeting-iran-school-airstrikes-pentagon-anthropic" target="_blank">Foreign Policy — AI Targeting, Iran, Pentagon, Anthropic</a></li>
+      <li><a href="https://futurism.com/artificial-intelligence/pentagon-ai-claude-bombing-elementary-school" target="_blank">Futurism — Pentagon AI Claude Bombing Elementary School</a></li>
+      <li><a href="https://whitehouse.senate.gov/news/release/as-trump-tries-to-avoid-accountability-for-iranian-school-bombing" target="_blank">US Senate — Senators Press Pentagon for Accountability</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="section">
+    <p class="section-number">03</p>
+    <h2>Brian McGinnis — Marine Veteran Silenced and Injured for Protesting</h2>
+    <div class="claim">A Marine Corps veteran was forcibly removed from a Senate Armed Services Committee hearing for peacefully protesting the war. He sustained a broken arm in the process and was charged with assault.</div>
+    <p class="explanation">
+      Brian McGinnis, a Marine Corps veteran and Green Party Senate candidate from North Carolina, stood up during a Senate Armed Services Committee hearing on March 4th and shouted objections to US military action in Iran. He was forcibly removed by Capitol Police and sustained a broken arm after getting caught in a doorway. He was charged with assault on a police officer, resisting arrest, and unlawful demonstration. Meanwhile, a Reuters/Ipsos poll found that 60% of Americans disapproved of the military strikes against Iran, and 51% said the military action wasn't worth it. By that point, 13 service members had been killed and 400 wounded, and over 3,300 people in Iran had been killed by US-Israeli attacks.
+    </p>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://military.com/feature/2026/03/05/brian-mcginnis-removed-senate-hearing-after-protest-over-us-policy-toward-israel" target="_blank">Military.com — Brian McGinnis Removed from Senate Hearing</a></li>
+      <li><a href="https://abc11.com/post/marine-veteran-north-carolina-charged-protesting-war-iran-senate-hearing" target="_blank">ABC11 — Marine Veteran Charged After Protesting Iran War</a></li>
+      <li><a href="https://npr.org/2026/04/24/nx-s1-5795898/veterans-and-military-families-protest-iran-war-on-capitol-hill" target="_blank">NPR — Veterans and Military Families Protest Iran War</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="section">
+    <p class="section-number">04</p>
+    <h2>"A Whole Civilization Will Die Tonight" — The President's Own Words</h2>
+    <div class="claim">The president posted a threat to erase an entire civilization on his own social media platform. He later said he was "fine with it." He also said he might bomb Iran's oil hub again "just for fun."</div>
+    <p class="explanation">
+      On April 7th, Trump posted on Truth Social: "A whole civilization will die tonight, never to be brought back again. I don't want that to happen, but it probably will." When asked about it afterward, he told Fox News "I'm fine with it," arguing it brought Iran to the negotiating table. Even his closest ally Marjorie Taylor Greene posted "25TH AMENDMENT!!! We cannot kill an entire civilization. This is evil and madness." The Pope called the threats "truly unacceptable." France said the statement could constitute a war crime. The UN Secretary General condemned it. Separately, Trump told NBC News the US may carry out more strikes on Iran's Kharg Island oil hub — and used the words "just for fun." Iran's foreign minister responded directly, saying "there are people being killed only because President Trump wants to have fun."
+    </p>
+    <div class="quote-block">
+      A whole civilization will die tonight, never to be brought back again. I don't want that to happen, but it probably will.
+      <p class="quote-attribution">— Donald Trump, Truth Social, April 7 2026</p>
+    </div>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://pbs.org/newshour/world/trump-warns-a-whole-civilization-will-die-tonight" target="_blank">PBS — Trump Warns "A Whole Civilization Will Die Tonight"</a></li>
+      <li><a href="https://snopes.com/fact-check/trump-iran-whole-civilization-die" target="_blank">Snopes — Fact Check: Trump Iran Civilization Quote</a></li>
+      <li><a href="https://thehill.com/homenews/administration/5827896-trump-defends-iran-threat-civilization" target="_blank">The Hill — Trump Defends Iran Civilization Threat</a></li>
+      <li><a href="https://aljazeera.com/news/2026/3/15/trump-says-us-may-hit-irans-kharg-island-again-just-for-fun" target="_blank">Al Jazeera — Trump Says May Hit Kharg Island "Just for Fun"</a></li>
+      <li><a href="https://nbcnews.com/politics/white-house/trump-threat-whole-civilization-will-die-iran-war-deadline-hormuz" target="_blank">NBC News — Trump Threat, Civilization, Iran War</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 5 -->
+  <div class="section">
+    <p class="section-number">05</p>
+    <h2>Anti-Fascists Designated Terrorists — With No Legal Basis</h2>
+    <div class="claim">The Trump administration designated "antifa" — a decentralized movement, not an organization — as a terrorist group, with language vague enough to criminalize protected political speech.</div>
+    <p class="explanation">
+      Antifa is not a group or organization but a decentralized movement — a fact confirmed by both the former FBI Director and the Congressional Research Service. The administration has no legal authority to designate domestic groups as terrorist organizations, and the executive order doesn't cite a statute or constitutional provision because there isn't one. The Brennan Center for Justice noted the vague and broad language is "ripe for abuse" and could result in surveillance, investigations, and criminal prosecutions of protected First Amendment activities. The new counterterrorism strategy's foreword, written by Trump, concludes: "We Will Find You and We Will Kill You." Antifa is short for anti-fascist. Being against fascism is now officially classified as a potential terrorist designation.
+    </p>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://brennancenter.org/our-work/research-reports/trumps-orders-targeting-antifascism-aim-criminalize-opposition" target="_blank">Brennan Center for Justice — Orders Targeting Antifascism</a></li>
+      <li><a href="https://charityandsecurity.org/news/trumps-terrorism-designation-of-antifa-meaningless-or-serious-threat" target="_blank">Charity & Security Network — Antifa Terrorism Designation</a></li>
+      <li><a href="https://theintercept.com/2026/05/15/trump-terrorism-left-groups-antifa-christian-gorka" target="_blank">The Intercept — Trump Terrorism, Left Groups, Antifa</a></li>
+      <li><a href="https://time.com/article/2026/05/06/trump-new-counterterrorism-strategy" target="_blank">Time — Trump New Counterterrorism Strategy</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 6 -->
+  <div class="section">
+    <p class="section-number">06</p>
+    <h2>The Third Term — Judicial Nominees Who Won't Answer a One-Sentence Question</h2>
+    <div class="claim">Trump's judicial nominees have refused to confirm that the 22nd Amendment — which prohibits a third presidential term — applies to Trump. Trump has also floated suspending elections.</div>
+    <p class="explanation">
+      Trump's judicial nominee John Marck, nominated for a federal judgeship, was asked directly whether the 22nd Amendment prevents Trump from running for a third term. He initially didn't know what the 22nd Amendment was, and when pressed called it "more of a hypothetical." When a senator asked the entire panel of nominees if anyone was "brave enough" to confirm the Constitution prevents a third Trump term, they mostly stayed silent. These are people being nominated to lifetime federal judgeships. Separately, Trump has twice floated canceling the 2026 midterm elections, telling Reuters "we shouldn't even have an election." He also expressed envy at Ukraine's suspension of elections during wartime, saying "if we happen to be in a war with somebody, no more elections? Oh, that's good." The US is now in a war.
+    </p>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://washingtonmonthly.com/2026/05/07/third-term-trump-22nd-ammendment" target="_blank">Washington Monthly — Third Term, Trump, 22nd Amendment</a></li>
+      <li><a href="https://afj.org/article/trump-judicial-nominee-unsure-whether-constitution-applies-to-trump" target="_blank">Alliance for Justice — Judicial Nominee Unsure if Constitution Applies to Trump</a></li>
+      <li><a href="https://thehill.com/homenews/administration/5493487-justice-barrett-trump-third-term" target="_blank">The Hill — Justice Barrett, Trump Third Term</a></li>
+      <li><a href="https://democracydocket.com/news-alerts/trump-we-shouldnt-even-have-an-election" target="_blank">Democracy Docket — Trump: "We Shouldn't Even Have an Election"</a></li>
+      <li><a href="https://votebeat.org/2026/01/26/why-trump-cant-cancel-2026-midterm-elections" target="_blank">Votebeat — Why Trump Can't Cancel the 2026 Midterms</a></li>
+      <li><a href="https://cnn.com/2026/01/17/politics/midterm-elections-trump-2026-analysis" target="_blank">CNN — Midterm Elections, Trump 2026 Analysis</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 7 -->
+  <div class="section">
+    <p class="section-number">07</p>
+    <h2>Congress Failed — Both Parties</h2>
+    <div class="claim">The Senate rejected Democratic attempts to halt the war six times. Congress left for recess when the War Powers deadline arrived. Neither party has meaningfully held anyone accountable.</div>
+    <p class="explanation">
+      The War Powers Resolution requires Congress to either declare war or halt military action within 60 days of hostilities beginning. When that deadline arrived, Trump wrote a letter claiming hostilities had "terminated" because of a ceasefire — while simultaneously acknowledging the threat from Iran "remains significant." The Senate rejected Democratic attempts to invoke the War Powers Act six separate times. Even senators like Susan Collins and Todd Young, who said Congress should assert its authority, ultimately didn't force the issue. Congress then left for recess. No formal accountability mechanism has been triggered. Both parties have made statements. Neither has delivered consequences.
+    </p>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://pbs.org/newshour/politics/trump-says-deadline-for-congress-to-approve-iran-war-doesnt-apply" target="_blank">PBS — Trump Says War Powers Deadline Doesn't Apply</a></li>
+      <li><a href="https://hks.harvard.edu/faculty-research/policy-topics/are-we-officially-war-iran" target="_blank">Harvard Kennedy School — Are We Officially at War with Iran?</a></li>
+      <li><a href="https://britannica.com/question/Did-the-U-S-declare-war-on-Iran" target="_blank">Britannica — Did the US Declare War on Iran?</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION 8 -->
+  <div class="section">
+    <p class="section-number">08</p>
+    <h2>The Strike May Have Made Nuclear War More Likely — Not Less</h2>
+    <div class="claim">The war launched to prevent Iranian nuclear weapons may have made Iranian nuclear weapons more likely. Hardline factions inside Iran are now openly calling for a change in nuclear doctrine.</div>
+    <p class="explanation">
+      Iran was not close to having a nuclear weapon before the war. The US intelligence community assessed Iran almost certainly was not producing nuclear weapons. The IAEA director-general confirmed no evidence of current weapons development. Iran was in active negotiations. Now, following two rounds of bombing, hardline factions inside Iran are openly arguing that Iran's nuclear doctrine should change — precisely because Iran was bombed while engaged in good-faith negotiations. The action taken to prevent nuclear weapons may have created the political conditions inside Iran that make nuclear weapons more likely. This pattern — intervention producing the opposite of its stated goal — is a well-documented phenomenon in foreign policy history.
+    </p>
+    <p class="sources-label">Sources</p>
+    <ul class="sources">
+      <li><a href="https://armscontrol.org/issue-briefs/2026-03/did-irans-nuclear-and-missile-programs-pose-imminent-threat-no" target="_blank">Arms Control Association — Did Iran Pose an Imminent Threat? No.</a></li>
+      <li><a href="https://cnn.com/2026/03/29/middleeast/iran-nuclear-bomb-analysis-intl" target="_blank">CNN — Iran Nuclear Bomb Analysis</a></li>
+      <li><a href="https://armscontrol.org/factsheets/status-irans-nuclear-program-1" target="_blank">Arms Control Association — Status of Iran's Nuclear Program</a></li>
+    </ul>
+  </div>
+
+  <!-- CONCLUSION -->
+  <div class="section">
+    <p class="section-number">09</p>
+    <h2>Conclusion — Same Machine, Different Color</h2>
+    <div class="claim">None of this is conspiracy theory. None of it is fabricated. It is documented, sourced, and sitting in plain sight. The question is not whether it happened. The question is why so few people are talking about it.</div>
+    <p class="explanation">
+      An undeclared war was launched during active diplomacy, announced via a social media platform owned by the president, justified by a nuclear threat the government's own officials admitted wasn't imminent, and executed so fast — with AI doing the targeting — that a school full of children was added to a list and nobody caught it in time. A Marine veteran broke his arm trying to speak truth to power and was charged with assault. Sixty percent of Americans opposed the war and were ignored. Congress left for recess. Both parties made statements. Neither delivered consequences.
+    </p>
+    <p class="explanation">
+      The president threatened to erase an entire civilization on Easter Sunday, said bombing was "just for fun," floated canceling elections twice, and his judicial nominees couldn't confirm that a one-sentence constitutional amendment applies to him. Being against fascism is now a potential terrorist designation. The word "liberal" — meaning tolerant, open-minded, and supportive of individual rights — has been weaponized into a slur. The word "antifa" — meaning anti-fascist — has been weaponized into a crime.
+    </p>
+    <p class="explanation">
+      This is not a left issue or a right issue. Both parties are funded by the same defense contractors, vote for the same wars, protect the same financial institutions, and leave the same wealth gap untouched. The billion dollars spent on a losing campaign could have fed the world's most desperate people for years. The culture war keeps citizens fighting each other while the machine runs uninterrupted regardless of which color wins.
+    </p>
+    <p class="explanation">
+      The most dangerous thing in a democracy is not a corrupt government. It is a population that has been made comfortable enough with comfortable lies that it stops asking uncomfortable questions. Every claim in this document was looked up in real time. Every source is nonpartisan, verifiable, and on the record. None of it requires conspiracy thinking. It just requires paying attention.
+    </p>
+    <p class="explanation">
+      You don't have to be an activist. You don't have to be a Democrat or a Republican or an anarchist or anything at all. You just have to be human. And as a human, you are allowed to look at dead children, a broken-armed veteran, an AI targeting system, a civilization threatened on social media, and a Congress that left for recess — and say: this is not okay. This is not what we are supposed to be.
+    </p>
+    <div class="quote-block">
+      It's easier to be lied to than to do your own research. But the truth doesn't stop being true just because it's inconvenient. And children don't stop being dead just because the news cycle moved on.
+      <p class="quote-attribution">— Compiled May 19, 2026</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Every source in this document is <span>verifiable, nonpartisan, and on the record.</span></p>
+    <p>Primary sources include: Amnesty International · US Senate · PBS · NPR · Harvard Kennedy School · Arms Control Association · Brennan Center for Justice · Democracy Docket · Alliance for Justice · Snopes · Reuters · CNN · The Hill · Foreign Policy · Defense News</p>
+    <p style="margin-top:1rem;">Compiled May 19, 2026 · <span>"You don't have to be anything to see that what's happening is wrong. You just have to be human."</span></p>
+  </footer>
+
+</div>
+</body>
+</html>
